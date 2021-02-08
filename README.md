@@ -8,7 +8,7 @@ Table columns list out users with chosen role in each project and you can go to 
 ## Installation
 1. Copy your plugin directory into #{RAILS_ROOT}/plugins. If you are downloading the plugin directly from GitHub, you can do so by changing into your plugin directory and issuing a command like:
     ```bash
-    $ git clone git://github.com/everlabs/project-roles-listing.git
+    $ git clone git@github.com:everlabs/project_roles_listing.git
     ```
 2. If the plugin requires a migration, run the following command in #{RAILS_ROOT} to upgrade your database (make a db backup before).
     ```bash
