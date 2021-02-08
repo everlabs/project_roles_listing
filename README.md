@@ -18,11 +18,11 @@ Table columns list out users with chosen role in each project and you can go to 
     ```bash
     $ bundle install
     ```
-4. Run command to precompile plugin owerrides for views:
+4. Run command to precompile plugin overrides for views:
     ```bash
     $ rake deface:precompile
     ```
-   if owerrides precompiled twice use:
+   and remove duplicated overrides with:
     ```bash
     $ rake deface:clean                                   # Removes all precompiled override templates
     ```
