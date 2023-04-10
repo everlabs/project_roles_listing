@@ -11,3 +11,5 @@ end
 
 Rails.application.paths["app/overrides"] ||= []
 Rails.application.paths["app/overrides"] << File.expand_path("../app/overrides", __FILE__)
+
+Role.safe_attributes 'show_in_admin_projects'
