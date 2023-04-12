@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'deface'
+gem 'deface', '1.6.2'
