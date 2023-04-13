@@ -1,4 +1,4 @@
-require 'patches/add_safety_attributes_patch'
+require File.expand_path('../lib/patches/add_safety_attributes_patch.rb', __FILE__)
 
 Redmine::Plugin.register :project_roles_listing do
   name 'Project roles listing plugin'
