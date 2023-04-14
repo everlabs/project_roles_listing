@@ -1,3 +1,5 @@
+require_dependency 'role'
+
 module ProjectRolesListing
   module RolePatch
     def self.included(base)
